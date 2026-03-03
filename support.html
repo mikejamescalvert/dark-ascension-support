@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — Dark Ascension</title>
+    <meta name="description" content="Get help with Dark Ascension. Report bugs, request features, or contact the developer.">
+    <meta name="theme-color" content="#0a0a12">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .support-hero {
+            padding: 140px 24px 60px;
+            text-align: center;
+            background: var(--bg-darkest);
+        }
+        .support-content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 24px 100px;
+            background: var(--bg-darkest);
+        }
+        .support-section {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 32px 28px;
+            margin-bottom: 24px;
+        }
+        .support-section h3 {
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+        .support-section p,
+        .support-section li {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        .support-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .support-section li {
+            padding: 6px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .support-section li::before {
+            content: "\2022";
+            color: var(--accent-purple);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        .support-email {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-card);
+            border: 1px solid var(--accent-purple);
+            border-radius: 10px;
+            padding: 14px 24px;
+            margin-top: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--accent-purple);
+            transition: background 0.2s, transform 0.2s;
+        }
+        .support-email:hover {
+            background: var(--bg-hover);
+            color: var(--accent-cyan);
+            transform: translateY(-2px);
+        }
+        .support-version {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="/" class="nav-logo"><span>Dark</span> Ascension</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/#features">Features</a></li>
+            <li><a href="/#screenshots">Screenshots</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="support.html" style="color: var(--accent-purple);">Support</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+    </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<div class="support-hero">
+    <span class="section-label">Support</span>
+    <h1 class="section-title" style="font-size: 2.5rem; margin-bottom: 16px;">How Can We Help?</h1>
+    <p class="section-desc centered">Found a bug, have a question, or want to suggest a feature? We're here to help.</p>
+</div>
+
+<!-- ===== CONTENT ===== -->
+<div class="support-content">
+
+    <div class="support-section">
+        <h3>Report a Bug</h3>
+        <p>If something isn't working right, please email us with:</p>
+        <ul>
+            <li>What happened (and what you expected to happen)</li>
+            <li>Steps to reproduce the issue</li>
+            <li>Your device and OS version (e.g., iPhone 15, iOS 18)</li>
+            <li>A screenshot if possible</li>
+        </ul>
+        <a href="mailto:support@darkascensionlabs.com?subject=Bug%20Report%20-%20Dark%20Ascension" class="support-email">
+            support@darkascensionlabs.com
+        </a>
+    </div>
+
+    <div class="support-section">
+        <h3>Feature Requests</h3>
+        <p>Have an idea for the game? We love hearing from players. Tell us what you'd like to see — new systems, quality-of-life improvements, balance changes, or anything else. Email us with "Feature Request" in the subject line.</p>
+        <a href="mailto:support@darkascensionlabs.com?subject=Feature%20Request%20-%20Dark%20Ascension" class="support-email">
+            support@darkascensionlabs.com
+        </a>
+    </div>
+
+    <div class="support-section">
+        <h3>Purchases &amp; Restore</h3>
+        <p>If an in-app purchase didn't apply correctly:</p>
+        <ul>
+            <li>Go to <strong>Settings</strong> in the game and tap <strong>Restore Purchases</strong></li>
+            <li>Make sure you're signed in with the same Apple ID used for the purchase</li>
+            <li>Restart the app and try again</li>
+        </ul>
+        <p style="margin-top: 12px;">If the issue persists, email us with your Apple ID (the email, not the password) and which item you purchased. We'll help sort it out.</p>
+    </div>
+
+    <div class="support-section">
+        <h3>Save Data</h3>
+        <p>All save data is stored locally on your device. To back up or transfer your save:</p>
+        <ul>
+            <li>Go to <strong>Settings</strong> in the game</li>
+            <li>Tap <strong>Copy Save to Clipboard</strong></li>
+            <li>Paste it somewhere safe (Notes, email, etc.)</li>
+            <li>On a new device, use <strong>Import Save from Clipboard</strong></li>
+        </ul>
+    </div>
+
+    <div class="support-section">
+        <h3>General Questions</h3>
+        <p>For anything else — general questions, feedback, press inquiries, or just to say hi — reach out anytime.</p>
+        <a href="mailto:support@darkascensionlabs.com?subject=Dark%20Ascension%20-%20General" class="support-email">
+            support@darkascensionlabs.com
+        </a>
+    </div>
+
+    <div class="support-version">
+        Dark Ascension is made by Dark Ascension Labs.<br>
+        Current version: v1.9.2
+    </div>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-copy">&copy; 2026 Dark Ascension Labs. All rights reserved.</div>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- ===== JS ===== -->
+<script>
+(function() {
+    var toggle = document.getElementById("navToggle");
+    var links = document.getElementById("navLinks");
+    toggle.addEventListener("click", function() {
+        links.classList.toggle("open");
+    });
+    var navAnchors = links.querySelectorAll("a");
+    for (var i = 0; i < navAnchors.length; i++) {
+        navAnchors[i].addEventListener("click", function() {
+            links.classList.remove("open");
+        });
+    }
+})();
+</script>
+
+</body>
+</html>
